@@ -1,0 +1,31 @@
+# Core Requirements
+streamlit==1.43.1
+google-generativeai
+google-auth==2.38.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+streamlit-oauth==0.1.14
+tensorflow==2.18.0
+torch==2.2.1  # Latest stable version with Python 3.12 support
+transformers
+
+# Essential Data/Database
+faiss-cpu==1.10.0
+numpy==1.26.4
+pandas==2.1.4
+sqlalchemy==2.0.39
+python-dotenv==1.0.1
+
+# Web/API
+requests==2.32.3
+beautifulsoup4==4.13.3
+fastapi==0.115.11
+
+# Text Processing
+nltk==3.9.1
+spacy==3.8.4
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+
+# Optional (only if needed)
+langchain==0.3.23
+huggingface-hub==0.20.3
