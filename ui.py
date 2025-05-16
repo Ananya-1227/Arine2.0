@@ -70,7 +70,7 @@ AUTHORIZE_ENDPOINT = "https://accounts.google.com/o/oauth2/v2/auth"
 TOKEN_ENDPOINT = "https://oauth2.googleapis.com/token"
 USER_INFO_URL = "https://www.googleapis.com/oauth2/v3/userinfo"
 
-FREE_QUERY_LIMIT = 100
+FREE_QUERY_LIMIT = 12
 
 # --- Streamlit Config ---
 st.set_page_config(
